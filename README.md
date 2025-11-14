@@ -4,6 +4,10 @@
 Este proyecto tiene como objetivo preparar los datos de clientes, analizarlos y entrenar modelos de Machine Learning para predecir churn (si un cliente deja de comprar).  
 El trabajo se divide en tres notebooks principales: limpieza, modelado y registro de experimentos.
 
+### Definición de churn
+Para este proyecto definimos churn como "clientes que llevan más de 999 días sin realizar compras".  
+Este criterio se tomó porque en el dataset este valor funcionaba como marcador de inactividad prolongada.
+
 ---
 
 ## Estructura del proyecto
